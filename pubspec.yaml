@@ -1,0 +1,43 @@
+name: calculadora_lucro
+description: Aplicativo de controle de compras, vendas e lucro com calendário mensal.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Armazenamento local
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+  # Gerenciamento de estado
+  provider: ^6.1.1
+
+  # Gráficos
+  fl_chart: ^0.68.0
+
+  # Geração de PDF — versões compatíveis com compileSdk 34
+  pdf: ^3.10.8
+  printing: ^5.11.0
+
+  # Utilitários
+  intl: ^0.19.0
+  uuid: ^4.3.3
+  path_provider: ^2.1.2
+  share_plus: ^7.2.2
+
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  hive_generator: ^2.0.1
+  build_runner: ^2.4.8
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
